@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controlando Audio y Video en HTML5 con Javascript </title>
+</head>
+<body>
+    <video id="video" src="media/ruth.mp4" width="500" controls>
+        <p>Tu navegador no soporta videos en HTML5, por favor actualizalo.</p>
+    </video><br>
+
+    <audio id="audio" src="media/jw.mp3" controls>
+        <p>Tu navegador no soporta audio HTML5, por favor actualizalo.</p>
+    </audio>
+
+<button id="play">Reproducir</button>
+<button id="pause">Pausar</button>
+<br>
+<input type="range" value="1" min="0" max="1" step="0.1" id="volumen">
+
+    <script src="audioVideo.js"></script>
+</body>
+</html>
