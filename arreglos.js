@@ -8,4 +8,3 @@
 var amigos = [];
 amigos[0] = 'carlos';
 amigos[1] = 'Alejandro';
-
